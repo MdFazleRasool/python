@@ -54,3 +54,36 @@ Indexing in String starts from
 s="MFRasool"
 print("positive indexing"+s[0])
 print("negative indexing"+s[-8])
+
+#String Slicing
+print(s[1::1]) #[start,end,step] #end takes n -> n-1
+
+
+#Types Conversion
+
+# int-> String
+
+a=12;
+a=str(a);
+print(type(a))
+
+# String-> int
+
+b='12';
+b=int(b);
+
+print(type(b))
+
+#boolean 
+
+# falsy values and truthy values
+
+
+# 1 .) Formatted_String And 2.) Raw_String
+
+print()
+
+
+# Input Function
+s = int(input("hello what is your age "))
+print(s)
