@@ -85,5 +85,20 @@ print()
 
 
 # Input Function
-s = int(input("hello what is your age "))
-print(s)
+# s = int(input("hello what is your age "))
+# print(s)
+
+
+## Arithematic operator
+print("Arithematic Operator")
+
+a=5
+b=32
+print("Addition :- ",a+b)
+print("Subtraction :- ",a-b)
+print("Multiplication :- ",a*b)
+print("Division :- ",b/a)
+print("floor :- ",b//a)
+print("Modulus :- ",b%a)
+
+
