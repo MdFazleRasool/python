@@ -134,3 +134,23 @@ b=12
 
 print(a==b)
 print(a!=b)
+
+#when we compare string it compares ascii value
+
+print(ord("a"))
+print(ord("A"))
+
+print('A" > "a" :- ',"A" > "a")
+print('ABDC" > "ABCD" :- ',"ABDC" > "ABCD") # comparing each char one by on e
+
+
+
+#Logical Operators
+print("Logical opeartors :--   "," and , or , not ")
+
+print(123 > 100 and 34 == 34)
+print(123 < 100 or 34 == 34)
+print(not 34 == 34)
+
+print((456==456)!= (235 == 236))
+print(True and bool(0))
