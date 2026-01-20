@@ -90,7 +90,7 @@ print()
 
 
 ## Arithematic operator
-print("Arithematic Operator")
+print("Arithematic Operators ")
 
 a=5
 b=32
@@ -102,3 +102,35 @@ print("floor :- ",b//a)
 print("Modulus :- ",b%a)
 
 
+#Assignment Operators
+print("Assignment Operators ")
+
+a=20 
+
+a=a+20
+
+#compound Assignment Operations
+
+a+=20
+print(a)
+a+=20
+print(a)
+a*=20
+print(a)
+a/=20
+print(a)
+a//=20
+print(a)
+a**=20
+print(a)
+
+
+#comparison opeartors 
+
+print("comparison opeartors :--   "," > , < , <= ,>=  , == , != ")
+
+a=12
+b=12
+
+print(a==b)
+print(a!=b)
