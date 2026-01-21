@@ -154,3 +154,21 @@ print(not 34 == 34)
 
 print((456==456)!= (235 == 236))
 print(True and bool(0))
+
+#conditional Statements
+
+a=10
+
+if a >= 10:
+    print("a is greater or equal tp 10")
+else :
+    print("less than 10")
+
+
+
+if a <= 10:
+    print("a is less or equal to 10")
+elif a > 10 and a<50 :
+    print("a is greater than 10 but less than 50")
+else :
+    print("a is grater than or equal to 50")
