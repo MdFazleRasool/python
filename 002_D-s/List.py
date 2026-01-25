@@ -138,3 +138,16 @@ print(l)
 
 
 
+#Shallow Copy And Deep Copy
+# Deep Copy
+a = [10,20,30,40]
+b=a
+b[0]=100
+print(a)
+
+
+# Shallow Copy 
+c = [10,20,30,40]
+d=c.copy()
+d[0]=0
+print(c)
